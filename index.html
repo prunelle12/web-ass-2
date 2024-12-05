@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Landing Page</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <nav class="navbar">
+                <div class="logo">
+                    <h2>Coffee Bliss</h2>
+                </div>
+                <div class="navmenu">
+                    <ul>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+            <div class="main-header">
+                <div class="header">
+                    <h5>Welcome to Coffee Bliss</h5>
+                    <h2>Brewing Happiness One Cup at a Time</h2>
+                    <p>Discover the perfect blend of flavor and aroma. From rich espresso to creamy lattes,<br>
+                        every sip is a journey to coffee heaven.</p>
+                    <a href="#" class="btn" id="orderNowBtn">Order Now</a>
+                </div>
+                <img src="coffee-header.webp" alt="header coffee">
+            </div>
+        </header>
+
+        <section class="coffees" id="coffees">
+            <div class="main-topics">
+                <h2>COFFEE MENU</h2>
+            </div>
+
+            <div class="coffee-content">
+                <!-- Coffee Items here -->
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="set-row">
+                <div class="about-content">
+                    <h2>About Coffee Bliss</h2>
+                    <p>Welcome to Coffee Bliss, your cozy neighborhood café! 
+                        We take pride in sourcing the finest beans to bring you exceptional flavors in every cup. 
+                        Whether you're in the mood for a quick espresso or a leisurely latte, 
+                        our friendly baristas are here to make your coffee experience unforgettable. 
+                        Come in, take a seat, and enjoy the perfect blend of ambiance, aroma, and taste.</p>
+
+                <a href="#" class="btn2" id="learnMoreBtn">Learn More</a>
+                
+             </div>
+
+            </div>
+
+        </section>
+
+        <section class="call-to-action">
+            <div class="cta-container">
+              <h2>Join the Coffee Club!</h2>
+              <p>Sign up to enjoy exclusive perks, discounts, and updates!</p>
+              <button id="signUpBtn">Sign Up</button>
+            </div>
+          </section>
+          
+          <footer>
+            <p>Copyright &copy; Coffee Bliss 2024</p>
+          </footer>
+
+        <script>
+            document.getElementById('orderNowBtn').addEventListener('click', function() {
+                alert('Redirecting to the Order Page!');
+                // Add redirect or other functionality here
+            });
+
+            document.getElementById('learnMoreBtn').addEventListener('click', function() {
+                alert('Learn more about our coffee and story!');
+                // Add functionality such as scrolling to another section
+            });
+
+            document.getElementById('signUpBtn').addEventListener('click', function() {
+                alert('Thank you for signing up!');
+                // Trigger a sign-up form or another action
+            });
+        </script>
+    </body>
+</html>
